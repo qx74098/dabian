@@ -1,0 +1,18 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-09 09:50:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 15:24:06
+*/
+@charset "utf-8";
+body,div,ul,li,p,a,img,h1,h2,h3,h4,h5,h6,dl,dt,dd,form,input{margin: 0; padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+.bn{border: none;}
+.clearfix:after{content: ""; display: block; clear: both;}
+.clearfix{zoom: 1;}
+a{text-decoration: none; color: #484848;}
+li{list-style: none;}
+img{border: none;}
+.w1000{width: 1000px; margin: 0 auto;}
+input{outline: none;}

@@ -1,0 +1,124 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-15 12:42:58
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 14:06:51
+*/
+@charset "utf-8";
+.bd_t3{border-top: 3px solid #eaeaea;}
+.w857{width: 857px;}
+.pr{position: relative;}
+.ptab{position: absolute;}
+.left_con_nav dt{ border-top: 1px solid #dcdcdc;}
+.left_con_nav dd{ border-top: 1px solid #dcdcdc;}
+.ml64{margin-left: 64px;}
+.dedede{border: 1px solid #dedede;}
+.con_top_box{
+    height: 366px;
+    margin-top: 11px;
+}
+.left_con_nav{
+    width: 128px;
+    height: 366px;
+}
+.left_con_nav h2{
+    width: 126px;
+    height: 47px;
+    background: #004289;
+    color: #fff;
+    text-align: center;
+    line-height: 47px;
+    margin: 1px;
+}
+.left_con_nav dt{
+    height: 29px;
+    line-height: 29px;
+    padding-left: 14px;
+    background: #f4efe9;
+}
+.left_con_nav span{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 5px solid #fff;
+    border-color: white white white black;
+}
+.left_con_nav dd{
+    height: 31px;
+    line-height: 31px;
+    padding-left: 26px;
+}
+/*以上是网页的左侧导航  */
+.con_title{
+    right: 0;
+    height: 43px;
+    line-height: 43px;
+    background: #fafafa;
+}
+.con_title h4{
+    padding-left: 34px;
+    background: url(../imges/home.gif) no-repeat  11px;
+}
+.con_menu{
+    right: 0;
+    top: 43px;
+    height: 34px;
+    border-bottom: 1px solid #dcdcdc;
+    margin-top: 12px;
+}
+.con_menu ul li{
+    float: left;
+      border: 1px solid #dcdcdc;
+    border-bottom: none;
+}
+.con_menu ul li a{
+    display: inline-block;
+     height: 34px;
+    line-height: 34px;
+    padding: 0 23px 0 15px;
+}
+.con_menu ul li a:hover{
+     background: #004289;
+    color: #fff;
+}
+.bottom_con{
+    right: 43px;
+    top: 94px;
+    width: 780px;
+    height: 243px;
+    margin-top: 31px;
+}
+.bottom_con h6{
+    height: 27px;
+    line-height: 27px;
+    background: url(../imges/hand.gif) no-repeat;
+    padding-left: 29px;
+}
+.bottom_con form{
+    width: 778px;
+    height: 208px;
+    margin-top: 6px;
+}
+.bottom_con ul li{
+    float: left;
+    width: 200px;
+    margin-left: 43px;
+    margin-top: 26px;
+}
+.bottom_con li input{
+    width: 19px;
+    height: 18px;
+}
+.bottom_con li span {
+    margin-left: 4px;
+}
+/*以上是网页的内容  */
+.bottom_submit input{
+    float: right;
+    margin: 277px 17px 31px 0;
+    width: 215px;
+    height: 47px;
+    background: #e20f0f;
+    border: none;
+    outline: none;
+}

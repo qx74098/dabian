@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="en">      
+    <head>
+        <meta charset="utf-8">
+        <title>01美国新楼房列表</title>
+        <link rel="stylesheet" type="text/css" href="css/base.css">
+        <link rel="stylesheet" type="text/css" href="css/layout.css">
+        <link rel="stylesheet" type="text/css" href="css/themes1.css">
+        <script src="jquery-1.10.1.min.js"></script>
+        <script>
+            $(function(){
+                $('.header-nav a').click(function() {
+                    $(this).css("background",'red');
+                    $(this).parent().siblings().children().css('background','');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- 以下是网页头部 -->
+    	<div class="header">
+            <!-- 以下是网页头部中的登录条 -->
+            <div class="loginbar">
+    		    <ul class="w1000">
+    			    <li class="fl">
+    				    欢迎来到瑞麦地产！请&nbsp;<a href="common-wdpz.html">登录</a>&nbsp;&nbsp;<a href="#">免费注册</a>
+    			    </li>
+    			    <li class="fr">
+                        <a href="#">English - 中文 - 帮助中心</a>
+                    </li>
+    		    </ul>
+            </div>
+            <!-- 以下是网页头部中的国家搜索栏 -->
+            <div class="search w1000 clearfix">
+                <div class="tup fl">
+                    <a href="#"><img src="imges/logo.png" height="92" width="240" alt="" class="logo"></a>
+                    <a href="#"><img src="imges/guoqi.png" height="47" width="72" alt="" class="guoqi"></a>
+                </div>
+                <div class="wenzi fl">
+                    <form>
+                        <select>
+                            <option value="">美国</option>
+                            <option value="">中国</option>
+                            <option value="">日本</option>
+                        </select>
+                    </form>
+                    <p>热门城市:&nbsp;&nbsp; <a href="#">纽约</a> &nbsp;&nbsp;<a href="">马德里</a> &nbsp;<a href="">墨尔本</a> &nbsp;<a href="">新西兰</a> &nbsp;<a href="">北京</a> &nbsp;<a href="">上海</a></p>
+                </div>
+            </div>
+            <!-- 以下是网页头部导航 -->
+            <div class="header-nav clearfix">
+                <ul class="w1000">
+                    <li class="fl">
+                        <a href="#">首页</a>
+                    </li>
+                    <li class="fl">
+                        <a href="common-xlp.html">新楼盘</a>
+                    </li>
+                    <li class="fl">
+                        <a href="common-esf.html">二手房</a>
+                    </li>
+                    <li class="fl">
+                        <a href="common-zf.html">租房</a>
+                    </li>
+                    <li class="fl">
+                        <a href="common-esf.html">经济人平台</a>
+                    </li>
+                    <li class="fr">
+                        <a href="#">海外置业热线：400-<span>688-6888</span></a>
+                    </li>
+                </ul>
+            </div>
+    	</div>
+        <!-- 以下是网页主体 -->
+        <div class="main w1000 clearfix">
+                <div class="shouy4">
+                    <h5><img src="imges/1.gif" alt="">&nbsp;首页<span class="pl10 pr10">></span>美国新楼房列表</h5>
+                </div>
+                <!-- 首页标题 -->
+                 <div class="sousuo4">
+                     <form action="no">
+                         <input type="text"><input type="submit" value=" " class="vm"><input type="button" value="高级搜索">
+                     </form>
+                 </div>
+                 <!-- 搜索框 -->
+                 <div class="w1000 bjfc clearfix">
+                 <div class="zhousheng4 clearfix">
+                            <p class="fl a1 pl17 pr33">州/省：</p>
+                             <ul class="fl">
+                                <li><a href="#">全部</a></li>
+                                <li><a href="#">加州</a></li>
+                                <li><a href="#" class="lanse">纽约州</a></li>
+                                <li><a href="#">德克萨斯州</a></li>
+                                <li><a href="#">佛罗里达州</a></li>
+                                <li><a href="#">伊利诺伊州</a></li>
+                                <li><a href="#">宾夕法尼亚州</a></li>
+                                <li><a href="#">新泽西州</a></li>
+                                <li><a href="#">俄亥俄州</a></li>
+                                <li><a href="#">密歇根州</a></li>
+                                <li><a href="#">马撒个塞州</a></li>  
+                             </ul>
+                             <a href="#" class="fr xsj">更多<span class="fr"></span></a>
+                    </div>
+                    <div class="zhousheng4 clearfix">
+                            <p class="fl a1 pl17 pr15">热门城市：</p>
+                             <ul class="fl">
+                                <li><a href="#" class="lanse">全部</a></li>
+                                <li><a href="#">纽约</a></li>
+                                <li><a href="#">佛罗里达成</a></li>
+                                <li><a href="#">洛杉矶</a></li>
+                                <li><a href="#">芝加哥</a></li>
+                                <li><a href="#">休斯顿</a></li>
+                                <li><a href="#">费城</a></li>
+                                <li><a href="#">底特律</a></li>
+                                <li><a href="#">旧金山</a></li>
+                                <li><a href="#">波士顿</a></li>
+                                <li><a href="#">西雅图</a></li>  
+                             </ul>
+                              <a href="#" class="fr xsj">更多<span class="fr"></span></a>
+                    </div>
+                    <div class="zhousheng4 clearfix">
+                            <p class="fl a1 pl17 pr33">状 态：</p>
+                             <ul class="fl">
+                                <li><a href="#" class="lanse">全部</a></li>
+                                <li><a href="#">在售</a></li>
+                                <li><a href="#">出售</a></li>
+                                <li><a href="#">拍卖</a></li>
+                                <li><a href="#">类型：</a></li>
+                                <li><a href="#">不限</a></li>
+                                <li><a href="#">新建房源</a></li>
+                                <li><a href="#">商业房源</a></li>
+                                <li><a href="#">住宅房源</a></li>
+                                <li><a href="#">乡郊房源</a></li>
+                                <li><a href="#" class="lanse1">luxe 豪宅 ☆</a></li>  
+                             </ul>
+                    </div>
+                    <div class="zhousheng4 clearfix">
+                            <p class="fl a1 pl17 pr33">总 价：</p>
+                             <ul class="fl">
+                                <li><a href="#" class="lanse">全部</a></li>
+                                <li><a href="#">100万以下</a></li>
+                                <li><a href="#">100-300万</a></li>
+                                <li><a href="#">300-500万</a></li>
+                                <li><a href="#">500-700万</a></li>
+                                <li><a href="#">700-900万</a></li>
+                                <li><a href="#">900万以上(人民币)</a>
+                                </li> 
+                             </ul>
+                             <form action="no" class="wanyuan fr ">
+                                <input type="text">-<input type="text" class="mr5">万元(CNY) <input type="submit" value="确定">
+                            </form>  
+                    </div>
+                    <!-- 菜单栏 -->
+                     <div class="nyxz4">
+                            <form action="no">
+                                    <h5 class="fl">您已选择:</h5> <input type="text" value="纽约州"><span></span><input type="text1" value="纽约市"><span></span>
+                            </form>
+                    </div>
+                    <!-- 选择地址输入框 -->
+                     <div class="clearfix">
+                            <div class="zdfh4 w10000 clearfix">
+                                <h4 class="fl huose pl10">找到符合条件房源<span class="hongzi">60086</span>套</h4>
+                                <img src="imges/02.gif" class="fr mt1 mr10">
+                            </div>
+                   
+                            <div class="paixu4">
+                                <ul class="fl">
+                                    <li class="px">排序:</li>
+                                    <li class="mor1"><a href="#">默认</a></li>
+                                    <li class="mor"><a href="#">面积↑</a></li>
+                                    <li class="mor"><a href="#">总价↑</a></li>
+                                    <li class="mor"><a href="#">最新↑</a></li>
+                                </ul>
+                            <form action="no" class="fr"><input type="text" value="上一页"><input type="text" value="下一页"></form>
+                            </div>
+                     </div>
+                     <!-- 房源标题部分 -->
+                 <div class="neirong4 w1000 mt12 clearfix">
+                    <div class="box-fl fl">
+                     <a href="#"><img src="imges/03.gif" alt="0"></a>
+                     <P class="mg pt11 pl225"><a href="#">美国达拉斯5卧5卫房产</a></P>
+                     <p class="fy pt11 pl225">房源状态：在售</p>
+                     <p class="fy pt11 pl225">门牌号：某某街道，某某城镇</p>
+                     <p class="fy pt11 pl225">经纪人：张三</p>
+                     <p class="fy pt11 pl225">门店：美国某地方</p>
+                    </div>
+                        <div class="fr box">
+                            <div class="box-fr1">
+                                <p>
+                                    <span class="jiage">价格</span><span class="jiage1">卧室数</span><span class="jiage1">卫生间</span><span class="jiage1">面积</span><span class="jiage1">建造年份</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27">&nbsp; &nbsp;&nbsp;USD 299,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="pl30 pr60">3</span><span class="jiage1">1</span><span class="jiage1">102</span><span class="">2008</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27"><span style="color:red; font-size:20px;"><b>￥1000000</b></span></span>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                 
+                <div class="neirong4 w1000 mt12 clearfix">
+                    <div class="box-fl fl">
+                     <a href="#"><img src="imges/03.gif" alt="0"></a>
+                     <P class="mg pt11 pl225"><a href="#">美国达拉斯5卧5卫房产</a></P>
+                     <p class="fy pt11 pl225">房源状态：在售</p>
+                     <p class="fy pt11 pl225">门牌号：某某街道，某某城镇</p>
+                     <p class="fy pt11 pl225">经纪人：张三</p>
+                     <p class="fy pt11 pl225">门店：美国某地方</p>
+                    </div>
+                        <div class="fr box">
+                            <div class="box-fr1">
+                                <p>
+                                    <span class="jiage">价格</span><span class="jiage1">卧室数</span><span class="jiage1">卫生间</span><span class="jiage1">面积</span><span class="jiage1">建造年份</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27">&nbsp; &nbsp;&nbsp;USD 299,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="pl30 pr60">3</span><span class="jiage1">1</span><span class="jiage1">102</span><span class="">2008</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27"><span style="color:red; font-size:20px;"><b>￥1000000</b></span></span>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="neirong4 w1000 mt12 clearfix">
+                    <div class="box-fl fl">
+                     <a href="#"><img src="imges/03.gif" alt="0"></a>
+                     <P class="mg pt11 pl225"><a href="#">美国达拉斯5卧5卫房产</a></P>
+                     <p class="fy pt11 pl225">房源状态：在售</p>
+                     <p class="fy pt11 pl225">门牌号：某某街道，某某城镇</p>
+                     <p class="fy pt11 pl225">经纪人：张三</p>
+                     <p class="fy pt11 pl225">门店：美国某地方</p>
+                    </div>
+                        <div class="fr box">
+                            <div class="box-fr1">
+                                <p>
+                                    <span class="jiage">价格</span><span class="jiage1">卧室数</span><span class="jiage1">卫生间</span><span class="jiage1">面积</span><span class="jiage1">建造年份</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27">&nbsp; &nbsp;&nbsp;USD 299,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="pl30 pr60">3</span><span class="jiage1">1</span><span class="jiage1">102</span><span class="">2008</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27"><span style="color:red; font-size:20px;"><b>￥1000000</b></span></span>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="neirong4 w1000 mt12 clearfix">
+                    <div class="box-fl fl">
+                     <a href="#"><img src="imges/03.gif" alt="0"></a>
+                     <P class="mg pt11 pl225"><a href="#">美国达拉斯5卧5卫房产</a></P>
+                     <p class="fy pt11 pl225">房源状态：在售</p>
+                     <p class="fy pt11 pl225">门牌号：某某街道，某某城镇</p>
+                     <p class="fy pt11 pl225">经纪人：张三</p>
+                     <p class="fy pt11 pl225">门店：美国某地方</p>
+                    </div>
+                        <div class="fr box">
+                            <div class="box-fr1">
+                                <p>
+                                    <span class="jiage">价格</span><span class="jiage1">卧室数</span><span class="jiage1">卫生间</span><span class="jiage1">面积</span><span class="jiage1">建造年份</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27">&nbsp; &nbsp;&nbsp;USD 299,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="pl30 pr60">3</span><span class="jiage1">1</span><span class="jiage1">102</span><span class="">2008</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27"><span style="color:red; font-size:20px;"><b>￥1000000</b></span></span>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+               <div class="neirong4 w1000 mt12 clearfix">
+                    <div class="box-fl fl">
+                     <a href="#"><img src="imges/03.gif" alt="0"></a>
+                     <P class="mg pt11 pl225"><a href="#">美国达拉斯5卧5卫房产</a></P>
+                     <p class="fy pt11 pl225">房源状态：在售</p>
+                     <p class="fy pt11 pl225">门牌号：某某街道，某某城镇</p>
+                     <p class="fy pt11 pl225">经纪人：张三</p>
+                     <p class="fy pt11 pl225">门店：美国某地方</p>
+                    </div>
+                        <div class="fr box">
+                            <div class="box-fr1">
+                                <p>
+                                    <span class="jiage">价格</span><span class="jiage1">卧室数</span><span class="jiage1">卫生间</span><span class="jiage1">面积</span><span class="jiage1">建造年份</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27">&nbsp; &nbsp;&nbsp;USD 299,000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="pl30 pr60">3</span><span class="jiage1">1</span><span class="jiage1">102</span><span class="">2008</span>
+                                </p>
+                            </div>
+                            <div class="box-fr2">
+                                <p>
+                                    <span class="jiage pl27 pr27"><span style="color:red; font-size:20px;"><b>￥1000000</b></span></span>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                
+                
+        </div>
+                  
+    </div>
+                    <!-- 房源主题部分 -->
+                <div class="dibu">
+                    <a href="#"><input type="text1" value="上一页"></a><a href="#"><input type="text" value="1"></a><a href="#"><input type="text" value="2"></a><a href="#"><input type="text" value="3"></a><a href="#"><input type="text" value="4"></a><a href="#"><input type="text" value="5"></a><a href="#"><input type="text" value="6"></a><a href="#"><input type="text1" value="下一页"></a>
+                </div> 
+                <!-- 页码翻页部分  -->
+        <!-- 以下是网页底部 -->
+        <div class="footer clearfix">
+            <!-- 以下是网页底部的友情链接 -->
+            <p class="friendlink">
+                <a href="#">投资瑞麦</a><span>|</span>
+                <a href="#">加盟商机</a><span>|</span>
+                <a href="#">加盟证言</a><span>|</span>
+                <a href="#">激励表扬</a><span>|</span>
+                <a href="#">支持服务</a><span>|</span>
+                <a href="#">视频欣赏</a><span>|</span>
+                <a href="#">加盟问答</a><span>|</span>
+                <a href="#">联系我们</a>
+            </p>
+            <p class="service w1000 clearfix">
+            香港湾仔港湾道1号香港会议展览广场办公大楼50楼&nbsp;&nbsp;|&nbsp;&nbsp;中国大陆特许加盟热线:400-001-0906<br/>瑞麦地产 2014 RE/MAX China
+            </p>
+            <img src="imges/logo1.png" height="62" width="128" alt="" class="logo1">
+        </div>
+   
+    
+    </body>
+</html>

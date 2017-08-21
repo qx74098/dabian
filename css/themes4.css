@@ -1,0 +1,327 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-15 12:42:44
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 15:37:38
+*/
+li{
+	float:left;
+	list-style: none;
+}
+input{
+	border: none;
+}
+.pl10{padding-left:10px;}
+.pt11{padding-top:11px;}
+.pl17{padding-left:17px;}
+.pl27{padding-left: 20px;}
+.pl30{padding-left: 30px;}
+.pl225{padding-left: 225px;}
+.pr15{padding-right:15px;}
+.pr27{padding-right: 15px;}
+.pr33{padding-right:33px;}
+.pr10{padding-right: 10px;}
+.pr60{padding-right: 60px;}
+.ml{margin-left: 20px;}
+.mr10{margin-right: 10px;}
+.mt1{margin-top: 1px;}
+.mt12{margin-top: 12px;}
+.mr{margin-right: 20px;}
+.mr5{margin-right: 5px;}
+.vm{
+	vertical-align: middle;
+	
+}
+.bjfc{
+	background: #fcfcfc;
+	border:1px solid #f1f1f1;
+	height: 215px;
+}
+.pr{position: relative;}
+
+.shouy4{
+
+	height: 44px;
+	width: 983px;
+	line-height: 50px;
+	border:1px solid #f1f1f1;
+	background: #fbfbfb;
+	padding-left: 17px;
+	margin-top: 20px;
+}
+/* 首页标题部分 */
+.sousuo4 form{background: #fbfbfb;
+	border-right: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	width: 1000px;
+}
+.sousuo4 input[type="text"]{
+	width:748px;
+	height: 31px;
+	border:1px solid #b8c3c9;
+	border-right: none;
+	margin:15px 0 15px 19px;
+}
+.sousuo4 input[type="submit"]{
+	width:100px ;
+	height: 35px;
+	background:url(../imges/123.jpg) no-repeat;
+	border:none;
+	margin-right: 20px;
+}
+.sousuo4 input[type="button"]{
+	width: 98px;
+	height: 33px;
+	border:1px solid #e7e3e3;
+	background: #fff;
+	font-size: 14px;
+	color:#005d99;
+	font-weight: bold;
+}
+/* 搜索框输入部分 */
+.zhousheng4{
+	padding:10px 0;
+	border-bottom: 1px solid #f1f1f1;}
+.zhousheng4 .a1{ 
+	font-size: 12px;
+	color:#000;
+	margin:2px 0;	
+}
+/* 州/省前面两个字属性 */
+.zhousheng4 li { 
+	font-size: 12px;
+	color:#6a6a6a;
+	margin-right:15px;
+}
+.zhousheng4 li a{
+	display: block;
+	padding:2px 5px;
+	font-size: 12px;
+}
+/* 州省后面的地址 属性*/
+.zhousheng4 .lanse1{
+	color:#005d99;
+}/*后面的蓝色字体*/
+.zhousheng4 .xsj{
+	font-size: 12px;
+}
+.wanyuan input[type="text"]{
+	width: 52px;
+	height: 25px;
+	border:1px solid #dbdbdb;
+}
+.wanyuan input[type="submit"]{
+	width:42px;
+	height:25px;
+	border:1px solid #dbdbdb;
+	background: #fff;
+	margin-right: 10px;
+}
+.wanyuan{
+	color:#6a6a6a;
+	font-size: 12px;
+}
+
+.zhousheng4 .xsj span{
+	border:4px solid #494949;
+	border-color: #494949 #fff #fff #fff;
+	margin: 5px 15px 0 5px;
+}/*小三角*/
+.zhousheng4 li a:hover{
+	background: #005d99;
+	color:#fff;
+}
+ .zhousheng4 li .lanse{
+ 	background: #005d99;
+ 	color:#fff;
+ }/* 全部字体背景色 */
+ .nyxz4{
+ 	width: 973px;
+ 	height: 40px;
+ 	background: #f4f4f4;
+ 	margin: 5px 0 13px 13px;
+ }
+ .nyxz4 form{
+ 	line-height: 40px;
+ 	padding-left: 11px;
+ }
+ .nyxz4 input[type="text"]{
+ 	width:97px;
+ 	height:28px;
+ 	margin-left: 14px;
+ 	padding-left: 10px;
+ 	border: 1px solid #e7e3e3;
+ 	background:#fff  url(../imges/01.gif) no-repeat 85px 7px;
+ 	
+ }
+ .nyxz4 input[type="text1"]{
+ 	width:75px;
+ 	height:28px;
+ 	margin-left: 14px;
+ 	padding-left: 10px;
+ 	border: 1px solid #e7e3e3;
+ 	background:#fff  url(../imges/01.gif) no-repeat 64px 7px;
+ }/*选择你地址输入框*/
+ .zdfh4{
+ 	height:36px;
+ 	margin-top: 10px;
+ 	background:#f9f9f9;
+ 	border:1px solid #ebebeb;
+	line-height: 36px;
+ }
+ .zdfh4 .huose{
+ 	color: #4a4a4a;
+ }
+ .zdfh4 .hongzi{
+ 	color:#9b2e2e;
+ 	padding:0 10px;
+ }/**/
+.paixu4{
+	height:45px;
+	line-height: 45px;
+	background: #f9f9f9;
+	font-size: 12px;
+	border:1px solid  #ebebeb;
+}
+.paixu4 .px{
+	padding:0 10px 0 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.paixu4 .mor{
+	width: 48px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border:1px solid #ebebeb;
+	margin:8px;
+	padding-left: 3px;
+}
+.paixu4 .mor a:hover{
+	font-weight: bold;
+	color:#5b83c4;
+}
+.paixu4 .mor1{
+	width: 41px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border:1px solid #ebebeb;
+	margin:8px;
+	padding-left: 3px;
+	font-weight: bold;
+	color:#5b83c4;
+}
+.paixu4 .mor1 a{
+	font-weight: bold;
+	color:#5b83c4;
+}
+.paixu4 input[type="text"]{
+	width: 50px;
+	height: 27px;
+	text-align: center;
+	color: #4a4a4a;
+	margin-right: 10px;
+}
+/* 排序框 */
+.neirong4{
+	height: 160px;
+	border:1px solid #ebebeb;
+	clear: both;
+}
+.neirong4 img{
+	margin: 5px 0 5px 8px;
+	float: left;
+}
+.neirong4 .mg{
+	font-weight: bold;	
+	font-size: 14px;	
+}
+.neirong4 .fy{
+	font-size: 12px;
+	color: #363636;
+}
+.neirong4 .mg a{
+	color:#005d99;
+}
+.neirong4 .box-fl{
+	border-right: 1px solid #ebebeb;
+	width: 534px;
+	height: 160px;
+	margin-right: 0;
+}
+.box p span{
+	font-size: 13px;
+}
+.neirong4 .box-fr1{
+  	width: 465px;
+	line-height: 39px;
+  	height: 39px;
+  	border-bottom: 1px solid #ebebeb;
+}
+.neirong4 .box-fr2{
+	width: 465px;
+	line-height: 31px;
+  	height: 31px;
+  	border-bottom: 1px solid #ebebeb;
+}
+.neirong4 .box-fr1 .jiage{
+	padding:0 80px;
+}
+.neirong4 .box-fr1 .jiage2{
+	padding-left: 10px;
+}
+.neirong4 .box-fr1 .jiage1{
+	padding-left:20px;
+}
+.neirong4 .box-fr2 .jiage1{
+		padding-right: 42px;
+}
+.neirong4 .box .gengduo > a{
+	font-size: 13px;
+	line-height:24px;
+
+}
+/* 房源主体部分 */
+ .gengduo .xsj1{
+	border:4px solid #494949;
+	border-color: #494949 #fff #fff #fff;
+	margin: 10px 5px 0 5px;
+}/* 更多小三角 */
+.dibu{
+	width: 480px;
+	height: 36px;
+	margin: 20px auto;
+	margin-bottom: 50px;					/*页码部分*/
+}
+.dibu input[type="text1"]{
+	width: 71px;
+	height: 36px;
+	border:1px solid #eaeaea;
+	background:#efefef;
+	margin-left: 10px;
+	line-height: 36px;
+	text-align: center;
+	color:#a099a0;
+	font-size: 14px;
+
+}
+.dibu input[type="text1"]:hover{
+		background: #005d99;
+	color:#fff;
+}
+.dibu input[type="text"]{
+	width: 39px;
+	height: 36px;
+	border:1px solid #eaeaea;
+	background:#fbfbfb; 
+	margin-left: 10px;	
+	line-height: 36px;
+	text-align: center;
+	color:#3b5998;
+	font-size:16px;
+}
+.dibu input[type="text"]:hover{
+	background: #005d99;
+	color:#fff;
+}

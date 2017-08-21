@@ -1,0 +1,94 @@
+﻿/*
+* @Author: Administrator
+* @Date:   2017-08-09 09:50:20
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-14 20:49:00
+*/
+@charset "utf-8";
+.header{
+	width: 100%;
+}
+.header .loginbar{
+	width: 100%;
+	height: 35px;
+	background: #eaeaea;	
+}
+.header .loginbar li{
+	font-size: 14px;
+	line-height: 35px;
+}
+.header .loginbar li a:hover{
+	color: red;
+}
+/* 以上是网页头部登录条 */
+.header .search img.logo{
+	margin: 10px;
+}
+.header .search img.guoqi{
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+.header .search .tup{
+	height: 112px;
+}
+.header .search .wenzi{
+	height: 50px;
+	margin: 50px 0px 10px 10px;
+}
+.header .search .wenzi p{
+	margin: 10px 0 0;
+}
+/* 以上是网页头部搜索区 */
+.header .header-nav{
+	width: 100%;
+	height: 45px;
+	background: #004289;
+}
+.header .header-nav li a{
+	display: block;
+	padding: 0 30px;
+	font-size: 14px;
+	line-height: 45px;
+	color: white;
+}
+.br{
+	background: red;
+}
+.header .header-nav li a span{
+	color: #fefb00;
+}
+/* 以上是网页头部导航区 */
+
+
+/* 以下是网页主体 */
+
+
+
+/* 以下是网页底部 */
+.footer{
+	position: relative;
+	width: 100%;
+	height: 120px;
+}
+.footer .friendlink{
+	background: #004289;
+	height: 40px;
+	color: white;
+	text-align: center;
+}
+.footer .friendlink a{
+	display: inline-block;
+	margin: 0 15px;
+	color: white;
+	font-size: 14px;
+	line-height: 40px;
+}
+.footer .service{
+	font-size: 12px;
+	color: #b3b3b3;
+}
+.footer .logo1{
+	position: absolute;
+	top: 50px;
+	right: 200px;
+}

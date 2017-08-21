@@ -1,0 +1,171 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-15 12:42:56
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-15 16:22:57
+*/
+@charset "utf-8";
+.loginbar span{
+	margin: 0 14px 0 16px;
+}
+input{
+	outline: none;
+}
+select{outline:no;
+	vertical-align: top;}
+.search .wenzi h1 a{
+	color: #2b428e;
+	margin:65px 0 0 46px;
+	font-size: 36px;
+}
+.b-search{
+	border-bottom: 3px solid #eaeaea;
+}
+/*以上是网页头部导航*/
+.main{
+	margin-top: 11px;
+}
+.sidebar{
+	width: 128px;
+	height: 367px;
+	border:1px solid #dcdcdc;
+
+}
+.sidebar dt{
+	width: 128px;
+	height: 29px;
+	font-weight: bold;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 29px;
+	text-align: center;
+	background: url(../imges/sanjiao.png) no-repeat 12px center #f4efe9;}
+.sidebar dl a{
+	color: #8f8d8d;
+}	
+.sidebar dd{
+	width: 128px;
+	height: 31px;
+	background: #fff;
+	font-size:12px;
+	border-bottom: 1px solid #dcdcdc;
+	line-height: 31px;
+	text-align: center;
+	}
+
+.sidebar dd:hover a{
+	color: #245492;
+}
+.sidebar .border-b{
+	border-bottom: none;
+}
+.sidebar h3{
+	width: 126px;
+	height: 47px;
+	background: #004289;
+	margin: 1px 1px 0 1px;
+	line-height: 47px;
+	text-align: center;
+	color: #fff;
+}
+/*以上左侧导航栏*/
+.content .con-title{
+	width: 855px;
+	height: 43px;
+	background: #fbfbfb;
+	border: 1px solid #ebebeb;
+	margin-left:13px; 
+}
+.content .con-title span {
+	color: #0a0a0a;
+	font-weight: bold;
+	line-height: 43px;
+	font-size: 14px;
+	padding-left: 23px;
+	margin-left: 11px;
+	background: url(../imges/house.gif) no-repeat;
+}
+/*主题左上角*/
+.main-bottom{
+	margin-left:11px; 
+	width: 857px;
+}
+.main-bottom .top{
+	margin-top:12px; 
+	border-bottom:1px solid #ebebeb;
+	padding-left: 63px;
+}
+.main-bottom .head-nav li{
+	padding:0 20px 0 20px;
+	height: 34px;
+	line-height: 34px;
+	border:1px solid #ebebeb;
+	border-bottom: none;
+	float: left;
+	font-weight: bold; }
+.head-nav li:hover{
+	background: #004289;}	
+.head-nav li:hover a{
+	color:#fff;
+}
+/*主要，位置，描述*/
+.main-bottom .bottom{
+	width: 857px;
+}
+.main-bottom .bottom dt{
+	border-bottom: 1px solid #ebebeb;
+	padding-left: 11px;
+	line-height: 36px;
+	margin-top:13px;
+	color: #0a0a0a;
+	font-weight: bold;
+}
+.main-bottom .bottom dd a{
+	color:#004289;
+	line-height: 30px;
+	margin-left: 9px;
+}
+.main-bottom .bottom dd{
+	padding-left: 3px;
+	font-weight: bold;
+	float:left;
+	width: 416px;
+}
+.main-bottom .bottom select{
+	display: block;
+	width: 412px;
+	height: 24px;
+	margin-top: 4px;
+	border:1px solid #dbdbdb;
+	padding-left: 10px;
+	color:#484848;}
+.dl1 input[type="text"]{
+	width: 412px;
+	height: 22px;
+	margin-top: 4px;
+	border:1px solid #dbdbdb;
+	padding:0;
+	color:#484848;
+	background: url(../imges/x.gif) no-repeat 390px 3px;}
+input[type="text"]{
+	width: 402px;
+	height: 22px;
+	margin-top: 4px;
+	border:1px solid #dbdbdb;
+	padding:0;
+	color:#484848;
+	padding-left: 10px;}
+/*以下是按钮*/
+.button{
+	height: 176px;
+	position: relative;
+}
+.button input[type="button"]{
+	background: red;
+	border:0;
+	width: 251px;
+	height: 47px;
+	position: absolute;
+	top: 95px;
+	right:22px;
+	color: white;
+}
